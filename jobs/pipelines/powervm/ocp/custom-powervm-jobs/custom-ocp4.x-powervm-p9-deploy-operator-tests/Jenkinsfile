@@ -24,8 +24,8 @@ pipeline {
     } 
     environment {
         //users and credentials. All must be defined in Jenkins Credentials
-        GITHUB_USER = credentials('PUBLIC_GITHUB_USER') 
-        GITHUB_TOKEN = credentials('PUBLIC_GITHUB_TOKEN')
+        GITHUB_USER = credentials('GITHUB_USER_TEST_PG') 
+        GITHUB_TOKEN = credentials('GITHUB_TOKEN_PG')
         OS_USERNAME = credentials('OS_USERNAME')
         OS_PASSWORD = credentials('OS_PASSWORD')
         ARTIFACTORY_USER = credentials('ARTIFACTORY_USER')
